@@ -34,16 +34,31 @@ nav {
         text-decoration: none; }
         nav ul li a:hover {
           text-decoration: underline; }
-.homecontainer{
-	
-	
+.overlay{
+	animation: animateOverlay 1s;
+	-webkit-animation: animateOverlay 1s;
+	background:rgba(0, 23, 73, 0.85);
+	width:100%;
+	height:1080px;
 }
 .viewWrap{
 	background: url("../img/homebg.jpg")  center bottom;
+	overflow:auto;
 }		  
-.homewrap {
-  
-   }
+@keyframes animateOverlay{
+	from{background:rgba(0, 0, 0, 0.0);}
+	to{background:rgba(0, 23, 73, 0.85);}
+}
+@-webkit-keyframes animateOverlay{
+	from{
+	     display:none;
+	     background:rgba(0, 0, 0, 0.0);
+    }
+	to{
+	  display:block;
+	  background:rgba(0, 23, 73, 0.85);}
+}
+
 
 .homeheadline {
   position: absolute;
