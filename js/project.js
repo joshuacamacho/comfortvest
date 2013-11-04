@@ -25,7 +25,19 @@ function contactCtrl($scope){
 }
 
 $(document).ready(function(){
-	var left = $(window).width();
-	$('.trianglewrap').css({'left':'75px'});
-
+	//Nav bar animations
+	$('.home').click(function(){
+		$('.triangewrap').animate({'left':'52px'});
+	});
+	$('.products').click(function(){
+		$('.triangewrap').animate({'left':'228px'});
+	});
+	$('.about').click(function(){
+		$('.triangewrap').animate({'left':'417px'});
+	});
+	$('.contact').click(function(){
+		$('.triangewrap').animate({'left':'594px'});
+	});
+	
+	
 });

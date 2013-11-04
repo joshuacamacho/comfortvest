@@ -22,7 +22,9 @@ nav {
     font-family: Orator;
     font-size: 24px;
     float: right;
-    list-style-type: none; }
+    list-style-type: none;
+	position:relative;
+	}
     nav ul li {
       display: inline-block;
       padding: 15px 40px 0 40px; }
@@ -51,7 +53,9 @@ nav {
 .triangewrap {
   min-height: 56px;
   width: 110px;
-  bottom: 115px;
-  left: 775px;
+  position: absolute;
+  left:52px;
+  bottom:63px;
+
   background: url("../img/whitetab.png") no-repeat bottom center;
-  position: absolute; }
+   }
