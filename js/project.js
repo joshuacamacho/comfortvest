@@ -39,5 +39,7 @@ $(document).ready(function(){
 		$('.triangewrap').animate({'left':'594px'});
 	});
 	
-	
+	//viewport height fixer
+	var viewportHeight = ($( document ).height() - 115 ) + 'px';
+	$('.viewWrap').css({'height':viewportHeight});
 });

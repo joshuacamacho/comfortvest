@@ -9,7 +9,8 @@ body {
 nav {
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%; 
+  background:white;}
   nav .row {
     background: white;
     min-height: 115px; }
@@ -33,10 +34,16 @@ nav {
         text-decoration: none; }
         nav ul li a:hover {
           text-decoration: underline; }
-
+.homecontainer{
+	
+	
+}
+.viewWrap{
+	background: url("../img/homebg.jpg")  center bottom;
+}		  
 .homewrap {
-  min-height: 900px;
-  background: url("../img/homebg.jpg") no-repeat center top; }
+  
+   }
 
 .homeheadline {
   position: absolute;
