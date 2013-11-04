@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@font-face {
+  font-family: Orator;
+  src: url("../fonts/OratorStd.otf"); }
+
+body {
+  background: url("../img/bg.png") center !important; }
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  nav .row {
+    background: white;
+    min-height: 115px; }
+  nav span {
+    font-family: Orator;
+    float: left;
+    font-size: 24px;
+    margin: 37px 0 0 35px; }
+  nav ul {
+    font-family: Orator;
+    font-size: 24px;
+    float: right;
+    list-style-type: none; }
+    nav ul li {
+      display: inline-block;
+      padding: 15px 40px 0 40px; }
+      nav ul li a {
+        color: #222222;
+        text-decoration: none; }
+        nav ul li a:hover {
+          text-decoration: underline; }
+
+.homewrap {
+  min-height: 900px;
+  background: url("../img/homebg.jpg") no-repeat center top; }
+
+.homeheadline {
+  position: absolute;
+  top: 200px;
+  width: 300px; }
+  .homeheadline span {
+    font-family: Orator;
+    font-size: 36px; }
+  .homeheadline p {
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif; }
+
+.triangewrap {
+  min-height: 56px;
+  width: 110px;
+  bottom: 115px;
+  left: 775px;
+  background: url("../img/whitetab.png") no-repeat bottom center;
+  position: absolute; }
