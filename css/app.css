@@ -42,7 +42,7 @@ nav {
 	height:1080px;
 }
 .viewWrap{
-	background: url("../img/homebg.jpg")  center bottom;
+	background: url("../img/homebg.jpg")  no-repeat center bottom;
 	overflow:auto;
 }		  
 @keyframes animateOverlay{
