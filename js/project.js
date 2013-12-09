@@ -27,19 +27,29 @@ function contactCtrl($scope){
 $(document).ready(function(){
 	//Nav bar animations
 	$('.home').click(function(){
-		$('.triangewrap').animate({'left':'52px'});
+		$('.triangewrap').animate({'left':'28px'});
+		//clearUnderlines($(this));
 	});
 	$('.products').click(function(){
-		$('.triangewrap').animate({'left':'228px'});
+		$('.triangewrap').animate({'left':'195px'});
+		//clearUnderlines($(this));
 	});
 	$('.about').click(function(){
-		$('.triangewrap').animate({'left':'417px'});
+		$('.triangewrap').animate({'left':'374px'});
+		//clearUnderlines($(this));
 	});
 	$('.contact').click(function(){
-		$('.triangewrap').animate({'left':'594px'});
+		$('.triangewrap').animate({'left':'545px'});
+		//clearUnderlines($(this));
 	});
 	
 	//viewport height fixer
-	var viewportHeight = ($( document ).height() - 115 ) + 'px';
-	$('.viewWrap').css({'height':viewportHeight});
+	var viewportHeight = ($( document ).height() - 87 ) + 'px';
+	//$('.viewWrap').css({'height':viewportHeight});
 });
+
+function clearUnderlines(exception){
+	$('nav ul li a').css({'border-bottom':'0px #222222 solid'});
+	$(exception).css({'border-bottom':'1px #222222 solid'});
+
+}
